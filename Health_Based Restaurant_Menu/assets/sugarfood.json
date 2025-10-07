@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Brown Rice with Dal and Vegetables",
+    "value": "brown_rice_with_dal_and_vegetables",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Roti from Whole Wheat or Ragi",
+    "value": "roti_from_whole_wheat_or_ragi",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Bajra Khichdi with Vegetables",
+    "value": "bajra_khichdi_with_vegetables",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Methi Thepla with Curd",
+    "value": "methi_thepla_with_curd",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Lauki (Bottle Gourd) Curry",
+    "value": "lauki_bottle_gourd_curry",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Palak Dal",
+    "value": "palak_dal",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Karela (Bitter Gourd) Stir Fry",
+    "value": "karela_bitter_gourd_stir_fry",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Chana Masala with Brown Rice",
+    "value": "chana_masala_with_brown_rice",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Tinda Curry",
+    "value": "tinda_curry",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Cabbage and Peas Sabzi",
+    "value": "cabbage_and_peas_sabzi",
+    "name": "healthyfoods"
+  }
+]

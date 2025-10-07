@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Papaya",
+    "value": "papaya",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Apple",
+    "value": "apple",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Watermelon",
+    "value": "watermelon",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Pomegranate",
+    "value": "pomegranate",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Guava (ripe, soft)",
+    "value": "guava",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Vegetable Upma (no excess oil)",
+    "value": "vegetable_upma",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Idli with Coconut Chutney (low spice)",
+    "value": "idli_with_coconut_chutney",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Moong Dal Cheela (no oil)",
+    "value": "moong_dal_cheela",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Oats Porridge with Milk",
+    "value": "oats_porridge_with_milk",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Plain Dhokla",
+    "value": "plain_dhokla",
+    "name": "healthyfoods"
+  }
+]

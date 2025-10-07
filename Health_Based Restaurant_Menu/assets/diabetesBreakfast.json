@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Guava",
+    "value": "guava",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Apple",
+    "value": "apple",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Pear",
+    "value": "pear"
+  },
+  {
+    "title": "Orange (Sweet variety)",
+    "value": "orange_sweet",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Banana",
+    "value": "banana",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Oats Upma",
+    "value": "oats_upma",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Besan Chilla",
+    "value": "besan_chilla",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Sprouted Moong Salad",
+    "value": "sprouted_moong_salad",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Ragi Dosa",
+    "value": "ragi_dosa",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Vegetable Poha (with minimal oil)",
+    "value": "vegetable_poha",
+    "name": "healthyfoods"
+  }
+]

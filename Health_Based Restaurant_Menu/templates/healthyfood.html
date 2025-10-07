@@ -1,0 +1,221 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitMenu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static '/commonstyles.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static '/healthyfood.css' %}">
+</head>
+<body>
+    <div class="blur-bg"></div>
+    <div class="overlay">
+        <div class="healthyfoodlogo-container">
+            <img src="{% static 'images/logo.png' %}" alt="Fit Menu" class="healthyfood-logo">
+            <h1>FitMenu</h1>
+        </div>
+        {% if form_to_show == 1 %}
+        <div class="container-disease">
+            <form method="POST" action="{% url 'selected-list' %}" class="grid-menu-dishes">
+                {% csrf_token %}
+                <div class="category">
+                    <div class="category-title">Breakfast (Safe in Fever/Flu)</div>
+                    {% for fever_breakfast in fb%}
+                        <label><input type="checkbox" value={{fever_breakfast.value}} name={{fever_breakfast.name}}>{{fever_breakfast.title}}</label>
+                    {% endfor %}
+                </div>
+                <div class="category">
+                    <div class="category-title">Healthy Foods (Safe in Fever/Flu)</div>
+                    {% for fever_food in ff %}
+                        <label><input type="checkbox" value={{fever_food.value}} name={{fever_food.name}}>{{fever_food.title}}</label>
+                    {% endfor %}
+                </div>
+                <button class="next-btn outside-button" id="nextBtn" type="submit">Next</button>
+            </form>
+        </div>
+        {% endif %}
+        {% if form_to_show == 2 %}
+        <div class="container-disease">
+            <form method="POST" action="{% url 'selected-list' %}" class="grid-menu-dishes">
+                {% csrf_token %}
+                <div class="category">
+                    <div class="category-title">Breakfast (Safe in Allergy)</div>
+                    {% for allergy_breakfast in ab%}
+                        <label><input type="checkbox" value={{allergy_breakfast.value}} name={{allergy_breakfast.name}}>{{allergy_breakfast.title}}</label>
+                    {% endfor %}
+                </div>
+                <div class="category">
+                    <div class="category-title">Healthy Foods (Safe in Allergy)</div>
+                    {% for allergy_food in af %}
+                        <label><input type="checkbox" value={{allergy_food.value}} name={{allergy_food.name}}>{{allergy_food.title}}</label>
+                    {% endfor %}
+                </div>
+                <button class="next-btn outside-button" id="nextBtn" type="submit">Next</button>
+            </form>
+        </div>
+        {% endif %}
+        {% if form_to_show == 3 %}
+        <div class="container-disease">
+            <form method="POST" action="{% url 'selected-list' %}" class="grid-menu-dishes">
+                {% csrf_token %}
+                <div class="category">
+                    <div class="category-title">Breakfast (Safe in Sugar)</div>
+                    {% for sugar_breakfast in sb %}
+                        <label><input type="checkbox" value={{sugar_breakfast.value}} name={{sugar_breakfast.name}}>{{sugar_breakfast.title}}</label>
+                    {% endfor %}
+                </div>
+                <div class="category">
+                    <div class="category-title">Healthy Foods (Safe in Sugar)</div>
+                    {% for sugar_food in sf %}
+                        <label><input type="checkbox" value={{sugar_food.value}} name={{sugar_food.name}}>{{sugar_food.title}}</label>
+                    {% endfor %}
+                </div>
+                <button class="next-btn outside-button" id="nextBtn" type="submit">Next</button>
+            </form>
+        </div>
+        {% endif %}
+        {% if form_to_show == 4 %}
+        <div class="container-disease">
+            <form method="POST" action="{% url 'selected-list' %}" class="grid-menu-dishes">
+                {% csrf_token %}
+                <div class="category">
+                    <div class="category-title">Breakfast (Safe in Typhoid)</div>
+                    {% for typhoid_breakfast in tb %}
+                        <label><input type="checkbox" value={{typhoid_breakfast.value}} name={{typhoid_breakfast.name}}>{{typhoid_breakfast.title}}</label>
+                    {% endfor %}
+                </div>
+                <div class="category">
+                    <div class="category-title">Healthy Foods (Safe in Typhoid)</div>
+                    {% for typhoid_food in tf %}
+                        <label><input type="checkbox" value={{typhoid_food.value}} name={{typhoid_food.name}}>{{typhoid_food.title}}</label>
+                    {% endfor %}
+                </div>
+                <button class="next-btn outside-button" id="nextBtn" type="submit">Next</button>
+            </form>
+        </div>
+        {% endif %}
+        {% if form_to_show == 5 %}
+        <div class="container-disease">
+            <form method="POST" action="{% url 'selected-list' %}" class="grid-menu-dishes">
+                {% csrf_token %}
+                <div class="category">
+                    <div class="category-title">Breakfast (Safe in Diabetes)</div>
+                    {% for diabetes_breakfast in db %}
+                        <label><input type="checkbox" value={{diabetes_breakfast.value}} name={{diabetes_breakfast.name}}>{{diabetes_breakfast.title}}</label>
+                    {% endfor %}
+                </div>
+                <div class="category">
+                    <div class="category-title">Healthy Foods (Safe in Diabetes)</div>
+                    {% for diabetes_food in df %}
+                        <label><input type="checkbox" value={{diabetes_food.value}} name={{diabetes_food.name}}>{{diabetes_food.title}}</label>
+                    {% endfor %}
+                </div>
+                <button class="next-btn outside-button" id="nextBtn" type="submit">Next</button>
+            </form>
+        </div>
+        {% endif %}
+        {% if form_to_show == 6 %}
+        <div class="container-disease">
+            <form method="POST" action="{% url 'selected-list' %}" class="grid-menu-dishes">
+                {% csrf_token %}
+                <div class="category">
+                    <div class="category-title">Breakfast (Safe in BP)</div>
+                    {% for bp_breakfast in bb %}
+                        <label><input type="checkbox" value={{bp_breakfast.value}} name={{bp_breakfast.name}}>{{bp_breakfast.title}}</label>
+                    {% endfor %}
+                </div>
+                <div class="category">
+                    <div class="category-title">Healthy Foods (Safe in BP)</div>
+                    {% for bp_food in bf %}
+                        <label><input type="checkbox" value={{bp_food.value}} name={{bp_food.name}}>{{bp_food.title}}</label>
+                    {% endfor %}
+                </div>
+                <button class="next-btn outside-button" id="nextBtn" type="submit">Next</button>
+            </form>
+        </div>
+        {% endif %}
+        {% if form_to_show == 7 %}
+        <div class="container-disease">
+            <form method="POST" action="{% url 'selected-list' %}" class="grid-menu-dishes">
+                {% csrf_token %}
+                <div class="category">
+                    <div class="category-title">Breakfast (Safe in Chronic Kidney Disease)</div>
+                    {% for cb_breakfast in cb %}
+                        <label><input type="checkbox" value={{cb_breakfast.value}} name={{cb_breakfast.name}}>{{cb_breakfast.title}}</label>
+                    {% endfor %}
+                </div>
+                <div class="category">
+                    <div class="category-title">Healthy Foods (Safe in Chronic Kidney Disease)</div>
+                    {% for cf_food in cf %}
+                        <label><input type="checkbox" value={{cf_food.value}} name={{cf_food.name}}>{{cf_food.title}}</label>
+                    {% endfor %}
+                </div>
+                <button class="next-btn outside-button" id="nextBtn" type="submit">Next</button>
+            </form>
+        </div>
+        {% endif %}
+        {% if form_to_show == 8 %}
+        <div class="container-disease">
+            <form method="POST" action="{% url 'selected-list' %}" class="grid-menu-dishes">
+                {% csrf_token %}
+                <div class="category">
+                    <div class="category-title">Breakfast (Safe in Thyroid Disorder)</div>
+                    {% for tdb_breakfast in tdb %}
+                        <label><input type="checkbox" value={{tdb_breakfast.value}} name={{tdb_breakfast.name}}>{{tdb_breakfast.title}}</label>
+                    {% endfor %}
+                </div>
+                <div class="category">
+                    <div class="category-title">Healthy Foods (Safe in Thyroid Disorder)</div>
+                    {% for tdf_food in tdf %}
+                        <label><input type="checkbox" value={{tdf_food.value}} name={{tdf_food.name}}>{{tdf_food.title}}</label>
+                    {% endfor %}
+                </div>
+                <button class="next-btn outside-button" id="nextBtn" type="submit">Next</button>
+            </form>
+        </div>
+        {% endif %}
+        {% if form_to_show == 9 %}
+        <div class="container-disease">
+            <form method="POST" action="{% url 'selected-list' %}" class="grid-menu-dishes">
+                {% csrf_token %}
+                <div class="category">
+                    <div class="category-title">Breakfast (Safe in Chronic Liver Disease)</div>
+                    {% for cldb_breakfast in cldb %}
+                        <label><input type="checkbox" value={{cldb_breakfast.value}} name={{cldb_breakfast.name}}>{{cldb_breakfast.title}}</label>
+                    {% endfor %}
+                </div>
+                <div class="category">
+                    <div class="category-title">Healthy Foods (Safe in Chronic Liver Disease)</div>
+                    {% for cldf_food in cldf %}
+                        <label><input type="checkbox" value={{cldf_food.value}} name={{cldf_food.name}}>{{cldf_food.title}}</label>
+                    {% endfor %}
+                </div>
+                <button class="next-btn outside-button" id="nextBtn" type="submit">Next</button>
+            </form>
+        </div>
+        {% endif %}
+        {% if form_to_show == 10 %}
+        <div class="container-disease">
+            <form method="POST" action="{% url 'selected-list' %}" class="grid-menu-dishes">
+                {% csrf_token %}
+                <div class="category">
+                    <div class="category-title">Breakfast (Safe in Heart Attack)</div>
+                    {% for hab_breakfast in hab %}
+                        <label><input type="checkbox" value={{hab_breakfast.value}} name={{hab_breakfast.name}}>{{hab_breakfast.title}}</label>
+                    {% endfor %}
+                </div>
+                <div class="category">
+                    <div class="category-title">Healthy Foods (Safe in Heart Attack)</div>
+                    {% for haf_food in haf %}
+                        <label><input type="checkbox" value={{haf_food.value}} name={{haf_food.name}}>{{haf_food.title}}</label>
+                    {% endfor %}
+                </div>
+                <button class="next-btn outside-button" id="nextBtn" type="submit">Next</button>
+            </form>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

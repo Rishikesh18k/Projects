@@ -1,0 +1,178 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1740&q=80') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(6px);
+    z-index: 0;
+}
+
+.selected-food-logo-container {
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.selected-food-logo {
+    position: absolute;
+    height: 72px;
+    width: 72px;
+}
+
+h1 {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 51px;
+    animation: fadeGlow 2s infinite alternate;
+}
+
+@keyframes fadeGlow {
+    from {text-shadow: 0 0 8px #f97316;}
+    to {text-shadow: 0 0 25px #fff;}
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 15px;
+    top: 5%;
+}
+
+.menu-wrapper {
+    min-width: 400px;
+    max-width: 450px;
+    height: 84vh;
+    background: transparent;
+    border-radius: 15px;
+    margin-top: -28px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+.menu-title {
+    margin-bottom: 20px;
+    margin-left: 18.3%;
+    margin-top: 1px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 2rem;
+    width: auto;
+    height: 35px;
+    padding-left: 8px;
+    padding-top: 0px;
+    border-radius: 15px;
+    border-bottom: 0px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 5px;
+    flex-shrink: 0;
+    animation: fadeGlow 2s infinite alternate;
+}
+
+.menu-list {
+    flex: 1;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+.menu-list::-webkit-scrollbar {
+    width: 10px;
+    /* Width of the scrollbar */
+}
+
+.menu-list::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+}
+
+.menu-list::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    background-color: #d9d9d9;
+}
+
+.menu-list::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+}
+
+.menu-item {
+    background: transparent;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.menu-item:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.icon-btn {
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.next-btn {
+    display: block;
+    margin-top: 10px;
+    background: #f97316;
+    color: white;
+    width: 104px;
+    margin-left: 37%;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+}
+
+.next-btn:hover {
+    transform: scale(1.10);
+    background-color: #ff8c38;
+}

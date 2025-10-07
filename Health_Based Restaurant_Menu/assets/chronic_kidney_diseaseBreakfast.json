@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Apple (small)",
+    "value": "apple",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Guava (small, peeled)",
+    "value": "guava",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Papaya (small portion)",
+    "value": "papaya",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Pear",
+    "value": "pear",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Watermelon (small portion)",
+    "value": "watermelon",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Suji (Rava) Upma (low salt)",
+    "value": "suji_upma_low_salt",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Poha (flattened rice with mild spices)",
+    "value": "poha_mild",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Idli (steamed, low salt)",
+    "value": "idli_low_salt",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Plain Dosa (no added salt, minimal oil)",
+    "value": "plain_dosa_low_salt",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Vegetable Semiya (vermicelli) Upma",
+    "value": "vegetable_semiya_upma",
+    "name": "healthyfoods"
+  }
+]

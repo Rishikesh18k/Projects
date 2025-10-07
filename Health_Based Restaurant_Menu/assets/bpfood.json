@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Steamed Idli (low salt)",
+    "value": "steamed_idli_low_salt",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Oats Khichdi (with vegetables)",
+    "value": "oats_khichdi",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Ragi Roti (without excess salt)",
+    "value": "ragi_roti",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Moong Dal Soup (low salt)",
+    "value": "moong_dal_soup",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Vegetable Upma (minimal salt)",
+    "value": "vegetable_upma",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Cucumber Salad (with lemon and herbs)",
+    "value": "cucumber_salad",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Steamed Brown Rice (with dal and veggies)",
+    "value": "steamed_brown_rice",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Lauki (bottle gourd) Curry",
+    "value": "lauki_curry",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Palak (spinach) Dal",
+    "value": "palak_dal",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Sprouted Moong Salad",
+    "value": "sprouted_moong_salad",
+    "name": "healthyfoods"
+  }
+]

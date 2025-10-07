@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FitMenu</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="{% static '/selectedmenu.css' %}">
+</head>
+<body>
+<div class="selected-food-logo-container">
+    <img src="{% static 'images/logo.png' %}" alt="Fit Menu" class="selected-food-logo">
+    <h1>FitMenu</h1>
+</div>
+<div class="container">
+    <form method="POST" action="{% url 'total-list' %}">
+        <div class="menu-wrapper">
+            <h3 class="menu-title">Selected Menu</h3>
+            {% csrf_token %}
+            <div class="menu-list" id="selected-menu">
+                {% for selectedlist in selectedfoodlist %}
+                    <div class="menu-item" id="menu-item">{{selectedlist}}<button class="icon-btn" onclick="deleteItem(this)">✖</button></div>
+                     <input type="hidden" name="order_list" value="{{selectedlist}}">
+                {% endfor %}
+            </div>
+            <button class="next-btn" type="submit">Next</button>
+        </div>
+</div>
+<script>
+    function deleteItem(button) {
+        button.parentElement.remove();
+    }
+</script>
+</body>
+</html>

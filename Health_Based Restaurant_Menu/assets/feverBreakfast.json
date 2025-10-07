@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Moong Dal Cheela",
+    "value": "moong_dal",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Dalia",
+    "value": "dalia",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Vegetable Upma",
+    "value": "vegitable_upma",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Soft Idli with coconut chutney",
+    "value": "soft_idli",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Poha with mild spices",
+    "value": "Poha",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Steamed Dhokla",
+    "value": "steamed_hokla",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Oats porridge with milk or water",
+    "value": "oats_porridge",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Rice Kanji",
+    "value": "rice kanji",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Suji Halwa",
+    "value": "suji_halwa",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Besan Cheela",
+    "value": "besan_cheela",
+    "name": "healthyfoods"
+  }
+]

@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static '/customer_details.css' %}">
+</head>
+<body>
+    <div class="detail-page-logo-container">
+        <img src="{% static 'images/logo.png' %}" alt="Fit Menu" class="detail-page-logo">
+        <h1>FitMenu</h1>
+    </div>
+    <div class="content">
+        <form class="form-box" action="{% url 'customer-details' %}" method="POST">
+            <h2>Fill Details</h2>
+            {% csrf_token %}
+            <input type="text" name="detail" placeholder="Name" required>
+            <input type="tel" name="detail" placeholder="Mobile No." required>
+            <input type="text" name="detail" placeholder="Table No." required>
+            <input type="date" name="detail" required>
+            <input type="time" name="detail" required>
+            <button type="submit">Confirm Order</button>
+        </form>
+    </div>
+</body>
+</html>

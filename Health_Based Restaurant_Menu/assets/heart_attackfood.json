@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Moong Dal Khichdi",
+    "value": "moong_dal_khichdi",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Brown Rice with Steamed Vegetables",
+    "value": "brown_rice_steamed_vegetables",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Oats Vegetable Upma",
+    "value": "oats_vegetable_upma",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Ragi Roti with Curd",
+    "value": "ragi_roti_curd",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Steamed Idli with Sambar",
+    "value": "steamed_idli_sambar",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Palak (Spinach) Soup",
+    "value": "palak_soup",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Lauki (Bottle Gourd) Curry",
+    "value": "lauki_curry",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Vegetable Dalia",
+    "value": "vegetable_dalia",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Sprouts Salad",
+    "value": "sprouts_salad",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Masoor Dal (Red Lentil) Curry",
+    "value": "masoor_dal",
+    "name": "healthyfoods"
+  }
+]

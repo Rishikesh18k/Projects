@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Lauki (Bottle Gourd) Curry",
+    "value": "lauki_curry",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Tinda (Indian Round Gourd) Sabzi",
+    "value": "tinda_sabzi",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Turai (Ridge Gourd) Curry",
+    "value": "turai_curry",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Parwal (Pointed Gourd) Curry",
+    "value": "parwal_curry",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Suji (Rava) Upma (low salt)",
+    "value": "suji_upma_low_salt",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Poha (flattened rice with mild spices)",
+    "value": "poha_mild",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Plain Idli (low salt)",
+    "value": "idli_low_salt",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Chapati (whole wheat, no added salt)",
+    "value": "chapati_no_salt",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Vegetable Semiya (vermicelli) Upma",
+    "value": "vegetable_semiya_upma",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Boiled Rice (controlled portion)",
+    "value": "boiled_rice_portion",
+    "name": "healthyfoods"
+  }
+]

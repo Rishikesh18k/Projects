@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Quinoa Salad with Steamed Vegetables",
+    "value": "quinoa_salad_with_steamed_vegetables",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Brown Rice with Lentil Curry",
+    "value": "brown_rice_with_lentil_curry",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Grilled Sweet Potato Slices",
+    "value": "grilled_sweet_potato_slices",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Steamed Moong Dal Khichdi",
+    "value": "steamed_moong_dal_khichdi",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Vegetable Soup with Rice Noodles",
+    "value": "vegetable_soup_with_rice_noodles",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Steamed Idli from Brown Rice",
+    "value": "steamed_idli_from_brown_rice",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Lactose-Free Soy Yogurt with Fruits",
+    "value": "lactose_free_soy_yogurt_with_fruits",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Oats Porridge with Coconut Milk",
+    "value": "oats_porridge_with_coconut_milk",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Roasted Pumpkin Soup",
+    "value": "roasted_pumpkin_soup",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Cucumber and Carrot Salad",
+    "value": "cucumber_and_carrot_salad",
+    "name": "healthyfoods"
+  }
+]

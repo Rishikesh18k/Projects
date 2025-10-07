@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Bitter Gourd Curry (Karela)",
+    "value": "bitter_gourd_curry",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Sprouted Moong Salad",
+    "value": "sprouted_moong_salad",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Ragi Roti",
+    "value": "ragi_roti",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Brown Rice with Dal",
+    "value": "brown_rice_with_dal",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Lauki (Bottle Gourd) Curry",
+    "value": "lauki_curry",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Mixed Vegetable Curry (Low Oil)",
+    "value": "mixed_vegetable_curry",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Palak Paneer (Low Fat)",
+    "value": "palak_paneer_low_fat",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Methi Thepla (Without Sugar)",
+    "value": "methi_thepla",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Quinoa Khichdi",
+    "value": "quinoa_khichdi",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Cucumber and Tomato Salad",
+    "value": "cucumber_tomato_salad",
+    "name": "healthyfoods"
+  }
+]

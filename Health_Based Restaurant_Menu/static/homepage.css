@@ -1,0 +1,235 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body {
+    background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1740&q=80') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    z-index: 0;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #fff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 65px;
+}
+.home-page-logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 65px;
+    margin-left: -20px;
+}
+.logo-img {
+    display: flex;
+    height: 72px;
+}
+.nav-logo-title {
+    margin-left: -21px;
+    font-size: 1.6rem;
+    animation: fadeGlow 2s infinite alternate;
+    text-shadow: 2px 2px 8px black;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.navbar a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+.navbar a:hover::after {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+header {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    animation: fadeGlow 2s infinite alternate, fadeIn 2s ease-in-out;
+    margin-top: -170px;
+}
+
+@keyframes fadeGlow {
+    from {text-shadow: 0 0 8px #f97316;}
+    to {text-shadow: 0 0 25px #eee;}
+}
+
+.options {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(25px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+button.option-btn {
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 15px;
+    cursor: pointer;
+    background: #f97316;
+    backdrop-filter: blur(10px);
+    color: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+}
+
+button.option-btn:hover {
+    transform: scale(1.10);
+    background-color: #ff8c38;
+}
+
+a.menu-option {
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-decoration: none;
+    border: none;
+    width: 145px;
+    border-radius: 15px;
+    cursor: pointer;
+    background: #f97316;
+    backdrop-filter: blur(10px);
+    color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+}
+
+a.menu-option:hover {
+    transform: scale(1.10);
+    background-color: #ff8c38;
+}
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border-radius: 15px;
+    padding: 20px;
+    width: 320px;
+    text-align: left;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    animation: fadeIn 0.7s ease-in-out;
+}
+
+.search-bar {
+    display: flex;
+    background: white;
+    border-radius: 25px;
+    padding: 5px 10px;
+    align-items: center;
+}
+
+.search-bar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 25px;
+    font-size: 1rem;
+}
+
+.list {
+    margin-top: 15px;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+#disease-list {
+    min-height: 150px;
+
+}
+
+.list label {
+    display: block;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+.done-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #f97316;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+}
+
+.done-btn:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.hidden {
+    display: none;
+}
+
+button.done-btn:hover {
+    transform: scale(1.10);
+    background-color: #ff8c38;
+}

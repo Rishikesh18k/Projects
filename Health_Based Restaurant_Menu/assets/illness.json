@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Flu",
+        "value": "flu",
+        "name": "disease"
+        
+    },
+    {
+        "title": "Fever",
+        "value": "fever",
+        "name": "disease"
+    },
+    {
+        "title": "Allergy",
+        "value": "allergy",
+        "name": "disease"
+    },
+    {
+        "title": "Sugar",
+        "value": "sugar",
+        "name": "disease"
+    },
+    {
+        "title": "Typhoid",
+        "value": "typhoid",
+        "name": "disease"
+    },
+    {
+        "title": "Diabetes",
+        "value": "diabetes",
+        "name": "disease"
+    },
+    {
+        "title": "BP",
+        "value": "bp",
+        "name": "disease"
+    },
+    {
+        "title": "Chronic Kidney Disease",
+        "value": "chronic_kidney_disease",
+        "name": "disease"
+    },
+    {
+        "title": "Thyroid Disorder",
+        "value": "thyroid_disorder",
+        "name": "disease"
+    },
+    {
+        "title": "Chronic Liver Disease",
+        "value": "chronic_liver_disease",
+        "name": "disease"
+    },
+    {
+        "title": "Heart Attack",
+        "value": "heart_attack",
+        "name": "disease"
+    }
+]

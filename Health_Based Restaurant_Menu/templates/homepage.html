@@ -1,0 +1,110 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FitMenu-Home</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="{% static '/homepage.css' %}">
+</head>
+<body>
+<nav class="navbar">
+    <div class="home-page-logo-container">
+        <img src="{% static 'images/logo.png' %}" alt="Fit Menu" class="logo-img">
+        <p class="nav-logo-title">FitMenu</p>
+    </div>
+  <ul>
+    <li><a href="/home">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Order</a></li>
+    <li><a href="#">Profile</a></li>
+  </ul>
+</nav>
+<div class="container">
+    <header>FitMenu</header>
+    <div class="options">
+        <button class="option-btn" id="health-problem-btn">I'm not Healthy</button>
+        <a class="menu-option" id="healthy-menu" href="/foodmenu">I am Healthy</a>
+    </div>
+    <div id="health-section" class="card hidden">
+        <div class="search-bar">
+            <input type="text" id="search-disease" placeholder="Search your health problem">
+        </div>
+        <form method="POST" action="{% url 'submit-disease' %}">
+            {% csrf_token %}
+            <div class="list" id="disease-list">
+                {% for disease in diseases %}
+                    <label>
+                        <input type="checkbox" value={{ disease.value }} name={{disease.name}}>
+                        {{ disease.title }}
+                    </label>
+                {% endfor %}
+                <p id="no-results" style="color:#EEEEEE; display:none; text-align:center;">
+                    No results found
+                </p>
+            </div>
+            <button class="done-btn" id="done-btn" disabled type="submit">Done</button>
+        </form>
+    </div>
+</div>
+<script>
+    const healthProblemBtn = document.getElementById('health-problem-btn');
+    const healthSection = document.getElementById('health-section');
+    const menuSection = document.getElementById('menu-section');
+    const doneBtn = document.getElementById('done-btn');
+    const orderBtn = document.getElementById('order-btn');
+
+    healthProblemBtn.addEventListener('click', () => {
+        healthSection.classList.remove('hidden');
+        
+    });
+
+    document.querySelectorAll('#disease-list input').forEach(input => {
+        input.addEventListener('change', () => {
+            doneBtn.disabled = document.querySelectorAll('#disease-list input:checked').length === 0;
+        });
+    });
+
+    document.querySelectorAll('#menu-list input').forEach(input => {
+        input.addEventListener('change', () => {
+            orderBtn.disabled = document.querySelectorAll('#menu-list input:checked').length === 0;
+        });
+    });
+
+    document.getElementById('search-disease').addEventListener('input', function() {
+        const filter = this.value.toLowerCase();
+        document.querySelectorAll('#disease-list label').forEach(label => {
+            label.style.display = label.textContent.toLowerCase().includes(filter) ? '' : 'none';
+        });
+    });
+    const searchInput = document.getElementById('search-disease');
+    const diseaseLabels = document.querySelectorAll('#disease-list label');
+    const noResultsMsg = document.getElementById('no-results');
+
+    searchInput.addEventListener('input', function() {
+        const filter = this.value.toLowerCase();
+        let matchCount = 0;
+
+        diseaseLabels.forEach(label => {
+            const text = label.textContent.trim();
+            if (text.toLowerCase().includes(filter)) {
+                label.style.display = '';
+                matchCount++;
+            } else {
+                label.style.display = 'none';
+            }
+        });
+
+        noResultsMsg.style.display = matchCount === 0 && filter ? 'block' : 'none';
+    });
+
+    // Enable Done button when at least one checkbox is selected
+    document.querySelectorAll('#disease-list input').forEach(input => {
+        input.addEventListener('change', () => {
+            doneBtn.disabled = document.querySelectorAll('#disease-list input:checked').length === 0;
+        });
+    });
+</script>
+</body>
+</html>

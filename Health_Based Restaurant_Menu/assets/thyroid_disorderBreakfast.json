@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Papaya",
+    "value": "papaya",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Apple",
+    "value": "apple",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Guava",
+    "value": "guava",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Banana",
+    "value": "banana",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Pomegranate",
+    "value": "pomegranate",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Moong Dal Chilla",
+    "value": "moong_dal_chilla",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Vegetable Upma (no cabbage/cauliflower)",
+    "value": "vegetable_upma",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Oats Idli",
+    "value": "oats_idli",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Ragi Dosa",
+    "value": "ragi_dosa",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Vegetable Poha (no goitrogenic veggies)",
+    "value": "vegetable_poha",
+    "name": "healthyfoods"
+  }
+]

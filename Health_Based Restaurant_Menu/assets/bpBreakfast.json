@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Banana (small, ripe)",
+    "value": "banana_small_ripe",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Papaya",
+    "value": "papaya",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Guava",
+    "value": "guava",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Watermelon",
+    "value": "watermelon",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Pomegranate",
+    "value": "pomegranate",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Oats Upma (with vegetables, low salt)",
+    "value": "oats_upma_with_vegetables_low_salt",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Idli (steamed, low salt)",
+    "value": "idli_low_salt",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Vegetable Poha (with minimal salt and oil)",
+    "value": "vegetable_poha_with_minimal_salt_and_oil",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Ragi Dosa (without excess oil)",
+    "value": "ragi_dosa_without_excess_oil",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Moong Dal Chilla (without much salt)",
+    "value": "moong_dal_chilla_without_much_salt",
+    "name": "healthyfoods"
+  }
+]

@@ -1,0 +1,52 @@
+[
+    { 
+        "title": "Veg Burger", 
+        "value": "veg_burger",
+        "name": "healthyfoods" 
+    },
+    { 
+        "title": "Veg Pizza", 
+        "value": "veg_pizza",
+        "name": "healthyfoods" 
+    },
+    { 
+        "title": "Paneer Tikka", 
+        "value": "paneer_tikka",
+        "name": "healthyfoods" 
+    },
+    { 
+        "title": "Veg Biryani", 
+        "value": "veg_biryani",
+        "name": "healthyfoods" 
+    },
+    { 
+        "title": "Dal Fry", 
+        "value": "dal_fry",
+        "name": "healthyfoods" 
+    },
+    { 
+        "title": "Fried Rice", 
+        "value": "fried_rice",
+        "name": "healthyfoods"
+    },
+    { 
+        "title": "Manchurian", 
+        "value": "manchurian",
+        "name": "healthyfoods" 
+    },
+    { 
+        "title": "Noodles", 
+        "value": "noodles",
+        "name": "healthyfoods" 
+    },
+    { 
+        "title": "Dim Sum", 
+        "value": "dim_sum",
+        "name": "healthyfoods" 
+    },
+    { 
+        "title": "Falafel", 
+        "value": "falafel",
+        "name": "healthyfoods" 
+    }
+]

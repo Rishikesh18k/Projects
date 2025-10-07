@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Steamed Idli",
+    "value": "steamed_idli",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Plain Khichdi (Moong Dal + Rice)",
+    "value": "plain_khichdi",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Oats Porridge",
+    "value": "oats_porridge",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Vegetable Upma",
+    "value": "vegetable_upma",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Moong Dal Soup",
+    "value": "moong_dal_soup",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Steamed Dhokla",
+    "value": "steamed_dhokla",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Ripe Papaya",
+    "value": "ripe_papaya",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Boiled Sweet Potato",
+    "value": "boiled_sweet_potato",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Roti (Whole Wheat, No Oil)",
+    "value": "roti_no_oil",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Vegetable Stew (Lightly Cooked, No Oil)",
+    "value": "vegetable_stew",
+    "name": "healthyfoods"
+  }
+]

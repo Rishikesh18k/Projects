@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Khichdi",
+    "value": "khichdi",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Dal Soup",
+    "value": "dal_soup",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Vegetable Clear Soup",
+    "value": "vegetable_clear_soup",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Rice with Curd",
+    "value": "rice_with_curd",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Roti with Lauki",
+    "value": "roti_with_lauki",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Steamed Sweet Potato",
+    "value": "steamed_sweet_potato",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Boiled Corn",
+    "value": "boiled_corn",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Coconut Water",
+    "value": "coconut_water",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Boiled Eggs",
+    "value": "boiled_eggs",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Banana",
+    "value": "banana",
+    "name": "healthyfoods"
+  }
+]

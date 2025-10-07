@@ -1,0 +1,51 @@
+[
+  { 
+      "title": "Coffee", 
+      "value": "coffee",
+      "name": "healthyfoods"
+  },
+  { 
+      "title": "Veg Sandwich", 
+      "value": "veg_sandwich",
+      "name": "healthyfoods"
+  },
+  { 
+      "title": "Cheese Omelette", 
+      "value": "cheese_omelette",
+      "name": "healthyfoods" 
+  },
+  { 
+      "title": "Fruit Bowl", 
+      "value": "fruit_bowl",
+      "name": "healthyfoods" 
+  },
+  { 
+      "title": "cake", 
+      "value": "cake",
+      "name": "healthyfoods" 
+  },
+  { 
+      "title": "Mix Fruits", 
+      "value": "mix_fruits",
+      "name": "healthyfoods" 
+  },
+  { 
+      "title": "Aloo Paratha", 
+      "value": "aloo_paratha" 
+  },
+  { 
+      "title": "Chapati with Aloo Gobhi", 
+      "value": "chapati_with_aloo_gobhi",
+      "name": "healthyfoods"
+  },
+  { 
+      "title": "Soup", 
+      "value": "soup",
+      "name": "healthyfoods" 
+  },
+  { 
+      "title": "Spring Rolls", 
+      "value": "spring_rolls",
+      "name": "healthyfoods"
+  }
+]

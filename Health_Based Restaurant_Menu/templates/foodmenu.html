@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitMenu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static '/commonstyles.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static '/foodmenu.css' %}">
+</head>
+<body>
+    <div class="food-page-logo-container">
+        <img src="{% static 'images/logo.png' %}" alt="Fit Menu" class="food-logo">
+        <h1>FitMenu</h1>
+    </div>
+    <div class="blur-bg"></div>
+    <div class="overlay">
+        <div class="container">
+            <form method="POST" action="{% url 'selected-list' %}" class="grid-menu">
+                {% csrf_token %}
+                <div class="category">
+                    <div class="category-title">Breakfast</div>
+                    {%for dish in breakfast %}
+                        <label><input type="checkbox" value={{dish.value}} name="healthyfoods">{{dish.title}}</label>
+                    {% endfor %}
+                </div>
+                <div class="category">
+                    <div class="category-title">Main Course Veg</div>
+                    {% for veg in veg_dish %}
+                        <label><input type="checkbox" value={{veg.value}} name="healthyfoods">{{veg.title}}</label>
+                    {% endfor %}
+                </div>
+                <div class="category">
+                    <div class="category-title">Non-Veg</div>
+                    {% for non_veg in non_veg_dish %}
+                        <label><input type="checkbox" value={{non_veg.value}} name="healthyfoods">{{non_veg.title}}</label>
+                    {% endfor %}
+                </div>
+                <div class="category">
+                    <div class="category-title">Desserts & Snacks</div>
+                    {% for desserts_snacks in desserts %}
+                        <label><input type="checkbox" value={{desserts_snacks.value}} name="healthyfoods">{{desserts_snacks.title}}</label>
+                    {% endfor %}
+                </div>
+                <button class="next-btn outside-button" id="nextBtn" type="submit">Next</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

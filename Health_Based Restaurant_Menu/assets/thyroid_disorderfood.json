@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Brown Rice with Dal",
+    "value": "brown_rice_with_dal",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Vegetable Khichdi (no cabbage/cauliflower)",
+    "value": "vegetable_khichdi",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Grilled Fish (for iodine & omega-3)",
+    "value": "grilled_fish",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Roti with Bottle Gourd Curry",
+    "value": "roti_with_bottle_gourd_curry",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Lentil Soup (Masoor or Moong Dal)",
+    "value": "lentil_soup",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Idli with Coconut Chutney",
+    "value": "idli_with_coconut_chutney",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Paneer Bhurji (moderate fat)",
+    "value": "paneer_bhurji",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Ragi Roti with Vegetable Curry",
+    "value": "ragi_roti_with_vegetable_curry",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Sweet Potato Curry",
+    "value": "sweet_potato_curry",
+    "name": "healthyfoods"
+  },
+  {
+    "title": "Vegetable Dalia (broken wheat)",
+    "value": "vegetable_dalia",
+    "name": "healthyfoods"
+  }
+]
