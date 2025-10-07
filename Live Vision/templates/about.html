@@ -1,0 +1,76 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | LiveVision</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="{% static '/about.css' %}">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="live-page-title-container">
+      <img src="{% static 'images/logo.png' %}" alt="lv" class="logo-img">
+      <h1 class="nav-title">LiveVision</h1>
+    </div>
+    <ul>
+      <li><a href="/home">Home</a></li>
+      <li><a href="/about">About</a></li>
+      {% comment %} <li><a href="#">Live Streaming</a></li> {% endcomment %}
+      <li><a href="#">Video</a></li>
+      <li><a href="#">Profile</a></li>
+    </ul>
+  </nav>
+  <!-- Header -->
+  <div class="about-header">
+    <h1>About - LiveVision</h1>
+    <p>"Multi-Classification Detection on Live Video"</p>
+  </div>
+  <!-- About Content -->
+  <div class="about-section">
+    <div class="Overview-card">
+      <h2>📌 Overview</h2>
+      <p>
+        <b>LiveVision</b> is a AI powered system that performs real-time 
+        multi-classification on live video streams. It can detect and classify 
+        multiple objects, activities, or patterns simultaneously, providing 
+        instant and accurate insights. Built using the Django framework, 
+        LiveVision empowers applications in security, healthcare, 
+        education, and smart city solutions.
+      </p>
+    </div>
+    <div class="about-card">
+      <h2>🚀 Key Features</h2>
+      <p>
+        ✅ Real-time object and activity classification <br>
+        ✅ High accuracy with modern deep learning models <br>
+        ✅ User-friendly dashboard with live stream integration <br>
+        ✅ Scalable for multiple domains (health, education, security) <br>
+        ✅ Easy start, stop, and save video options
+      </p>
+    </div>
+    <div class="about-card">
+      <h2>👥 Our Team</h2>
+      <div class="team-section">
+        <div class="team-card">
+          <img src="{% static 'images/Rishi.jpeg' %}" alt="Team Member">
+          <h3>Rishikesh Kumar Kushwaha</h3>
+          <p>Developer & Designer.</p>
+          <h4>Full-Stack Developer.</h4>
+          <a href="https://github.com/Rishikesh18k">GitHub Profile</a>
+        </div>
+        <div class="team-card">
+          <img src="{% static 'images/tanmay.jpg' %}" alt="Team Member">
+          <h3>Tanmay Yadav</h3>
+          <p>Frontend Developer</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer>
+    © 2025 LiveVision | Multi-Classification Detection on Live Video
+  </footer>
+</body>
+</html>
